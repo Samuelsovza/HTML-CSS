@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Love';
+    src: url('fonts/Candylove\ PERSONAL\ USE\ ONLY!.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rock';
+    src: url('fonts/DeathMohawk_PERSONAL_USE_ONLY.otf') format('opentype');
+
+}
+
+h1 {
+    font-family: 'Rock';
+    font-size: 4em;
+}

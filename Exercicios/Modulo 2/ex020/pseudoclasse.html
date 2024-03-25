@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            display: inline-block;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 3em;
+            height: 60px;
+            width: 60px;
+        }
+
+        div:hover {
+            background-color: red;
+            height: 160px;
+            width: 160px;
+            text-align: center;
+            display: inline-block;
+
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        a {
+            color: black;
+            font-style: italic;
+        }
+
+    </style>
+    <title>Pseudo-classes</title>
+</head>
+<body>
+    <a href="HTTPS://www.youtube.com.br" target="_blank" rel="nofollow">
+        <div id="d1">1 <p>opção</p> </div>
+    </a>
+    <div id="d2">2 <p>opção</p></div>
+    <div id="d3">3 <p>opção</p></div>
+</body>
+</html>
