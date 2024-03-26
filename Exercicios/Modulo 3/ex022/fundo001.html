@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texte Imagem de Fundo</title>
+    <style>
+        body {
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            border-radius: 2px;
+            background-color: gray;
+            margin-right: 5px;
+        }
+        
+        div#q1:hover {
+            background-color: skyblue;
+            box-shadow:inset 3px 3px 8px rgba(0, 0, 0, 0.397);
+        }
+
+        div#q2:hover {
+            background-image: linear-gradient(to bottom, yellow, red);
+            box-shadow:inset 3px 3px 8px rgba(0, 0, 0, 0.397);
+        }
+
+        div#q3:hover {
+            background-image: url('imagens/pattern001.png');
+            box-shadow:inset 3px 3px 8px rgba(0, 0, 0, 0.397);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+</body>
+</html>
